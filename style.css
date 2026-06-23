@@ -387,6 +387,17 @@ h1, h2, h3 {
   border-color: rgba(207, 124, 149, 0.3);
 }
 
+.handle-pill .fa-instagram{
+
+    color:#E1306C;
+    transition:.3s;
+}
+
+.handle-pill:hover .fa-instagram{
+
+    transform:scale(1.15);
+}
+
 /* Card Stats */
 .quick-stats {
   display: flex;
@@ -730,7 +741,6 @@ section {
   height: 100%;
   display: block;
   overflow: visible;
-}
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
