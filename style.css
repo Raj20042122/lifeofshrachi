@@ -769,7 +769,7 @@ section {
 .reels-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+  gap: 40px;
 }
 
 .reel-card {
@@ -782,6 +782,7 @@ section {
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   text-decoration: none;
   border: 1px solid var(--glass-border);
+  margin-bottom: 20px;
 }
 
 .reel-card:hover {
