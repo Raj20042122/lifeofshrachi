@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #F2CAD5;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .brand-lockup {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .brand-title-wrap {
+            display: inline-flex;
+            align-items: baseline;
+            justify-content: center;
+            color: #2E101B;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 68px;
+            font-weight: 600;
+            line-height: 1;
+            letter-spacing: 0.08em;
+            position: relative;
+        }
+
+        /* The custom flourished S */
+        .swash-s-svg {
+            width: 0.95em;
+            height: 1.15em;
+            vertical-align: -0.15em;
+            margin-right: -0.05em;
+            display: inline-block;
+        }
+
+        .sparkle-trail {
+            display: inline-flex;
+            align-items: center;
+            vertical-align: middle;
+            margin-left: 14px;
+            position: relative;
+            top: -0.15em;
+        }
+
+        .sparkle-star {
+            width: 26px;
+            height: 26px;
+            flex-shrink: 0;
+        }
+
+        .sparkle-line {
+            width: 75px;
+            height: 2px;
+            background: #B8687D;
+            margin-left: -2px;
+            border-radius: 1px;
+        }
+
+        .brand-tagline {
+            font-family: 'Manrope', sans-serif;
+            font-size: 13.5px;
+            font-weight: 600;
+            letter-spacing: 0.32em;
+            color: #381122;
+            margin-top: 14px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- VERSION 1: SVG Swash S Path + Cormorant Garamond Letters -->
+    <div class="brand-lockup">
+        <div class="brand-title-wrap">
+            <svg class="swash-s-svg" viewBox="0 0 100 110" fill="currentColor">
+                <!-- Swashed S Path -->
+                <path d="M 76,26 C 76,21 72,16 67,16 C 62,16 58,19 58,23 C 58,28 63,30 67,31 C 71,32 75,34 75,39 C 75,44 69,48 60,48 C 50,48 40,41 38,31 C 36,21 44,11 58,8 C 72,5 82,12 85,22 C 86,25 86,29 86,33 C 86,45 76,55 64,62 C 55,68 46,73 42,78 C 38,83 40,88 47,88 C 56,88 66,80 70,72 L 72,74 C 66,85 54,92 43,92 C 34,92 28,85 28,76 C 28,66 36,58 48,51 C 58,45 66,39 68,33 C 70,27 68,23 64,21 C 58,18 50,20 47,26 C 44,32 46,38 43,40 C 40,42 36,39 36,34 C 36,24 46,14 60,14 C 70,14 78,20 78,28 Z" style="display:none;"/>
+                
+                <!-- Refined High Fashion Swash S -->
+                <!-- Main S body -->
+                <path d="M 68,22 C 68,25.5 65.5,28 62,28 C 58.5,28 56,25.5 56,22 C 56,18.5 58.5,16 62,16 C 63.5,16 64.8,16.5 65.8,17.4 C 61,12 51,9 42,12 C 30,16 23,26 25,37 C 27,48 37,55 49,61 C 63,68 73,76 71,89 C 69,102 53,108 38,105 C 23,102 12,91 14,76 L 18,76 C 17,88 26,98 39,100 C 51,102 64,96 66,86 C 68,74 58,67 46,61 C 33,54 22,46 20,34 C 18,21 28,9 42,6 C 53,4 64,8 68,14 Z" style="display:none;"/>
+                
+                <!-- Exact Flourished S based on Luxury Calligraphy / Didone -->
+                <path d="M 72 26 C 72 21 68 18 64 18 C 59 18 56 21 56 25 C 56 30 60 33 66 35 C 76 39 82 46 82 56 C 82 72 68 83 50 83 C 38 83 28 78 24 71 L 27 68 C 31 74 39 79 49 79 C 64 79 74 71 74 58 C 74 49 68 44 60 40 C 50 35 44 31 44 23 C 44 14 53 8 64 8 C 73 8 80 12 84 19 L 81 21 C 78 15 72 12 64 12 C 55 12 49 17 49 23 C 49 29 54 33 62 37 C 72 41 80 47 80 57 C 80 71 67 81 50 81 C 37 81 26 74 26 74"/>
+                
+                <!-- Swash loop at bottom -->
+                <path d="M 45 82 C 30 83 18 88 10 93 C 3 97 -2 95 -4 90 C -6 83 -2 74 8 68 C 17 62 26 62 26 67 C 26 73 17 76 10 80 C 1 85 4 91 9 89 C 18 86 31 82 48 81 Z"/>
+            </svg><span>HRACHI</span>
+            <span class="sparkle-trail">
+                <svg class="sparkle-star" viewBox="0 0 24 24">
+                    <path fill="#B8687D" d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"/>
+                </svg>
+                <span class="sparkle-line"></span>
+            </span>
+        </div>
+        <div class="brand-tagline">TRAVEL &bull; STYLE &bull; STORIES</div>
+    </div>
+
+</body>
+</html>
